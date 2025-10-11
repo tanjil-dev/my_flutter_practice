@@ -10,7 +10,7 @@ class InputFormWidgets extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Input', style: GoogleFonts.inter(fontSize: 28, fontWeight: FontWeight.bold),),
+        title: Text('Flutter Input & Git', style: GoogleFonts.inter(fontSize: 28, fontWeight: FontWeight.bold),),
         elevation: 15,
         actions: [
           IconButton(onPressed: (){
