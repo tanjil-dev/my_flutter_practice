@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+import 'common_widgets.dart';
+import 'input_widgets.dart';
+import 'text.dart';
+
+void main(){
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: InputFormWidgets(),
+    );
+  }
+  
+}
