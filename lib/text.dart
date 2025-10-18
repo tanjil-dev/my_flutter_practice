@@ -9,7 +9,6 @@ class HomePage extends StatelessWidget{
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 10, width: 10,),
               Divider(thickness: 2, color: Colors.black,),
               Container(child: Text('Hello'),),
               SizedBox(height: 10, width: 10,),
