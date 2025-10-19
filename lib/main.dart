@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/page_slide_view.dart';
 import 'common_widgets.dart';
 import 'dynamic_grid_list_view.dart';
 import 'e-commerce.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DynamicGridListView(),
+      home: MyPageView(),
     );
   }
   
