@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'common_widgets.dart';
+import 'dynamic_grid_list_view.dart';
 import 'e-commerce.dart';
+import 'grid_list_view.dart';
 import 'input_widgets.dart';
 import 'text.dart';
 import 'vertical_single_list_scroll_views.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyListScrollView(),
+      home: DynamicGridListView(),
     );
   }
   
