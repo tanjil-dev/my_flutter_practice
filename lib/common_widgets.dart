@@ -17,7 +17,7 @@ class CommonWidgetsFlutter  extends StatelessWidget {
           Row(
             children: [
               Expanded(child: Container(color: Colors.amber, height: 100,)),
-              Expanded(child: Container(color: Colors.blue, height: 100,)),
+              Expanded(child: Container(color: Colors.blue, height: 100, width: 40,)),
             ],
           ),
           Container(
